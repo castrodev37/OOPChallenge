@@ -1,0 +1,34 @@
+unit Price.Interfaces;
+
+interface
+
+type
+  iPrice  = interface;
+
+  iPrice  = interface
+  ['{4863608D-D95D-43E0-9925-0BF03CFC30F3}']
+  
+  end;
+
+  iPriceOperations  = interface
+  ['{71BACB9F-17DF-4339-8F33-524031820807}']
+    function GetPrice  : Currency; overload;
+    function GetPrice(aValue  : Currency) : iPriceOperations; overload;
+    
+  end;
+
+  iPriceParams = interface
+  ['{943340E4-4644-4572-A0C2-26B2834AEB98}']
+    function PriceName    : String; overload;
+    function PriceName(aValue  : String)    : iPriceParams; overload;
+    function PriceValue   : Currency; overload;
+    function PriceValue(aValue  : String)   : iPriceParams; overload;
+    function PriceValue(aValue  : Currency) : iPriceParams; overload;
+
+    function &End : iPrice;
+    
+  end;
+
+implementation
+
+end.

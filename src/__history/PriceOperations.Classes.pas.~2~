@@ -1,0 +1,41 @@
+unit PriceOperations.Classes;
+
+interface
+
+uses
+  Price.Interfaces;
+
+type
+  TPriceOperations = class(TInterfacedObject, iPriceOperations)
+    private
+      FParent : iPrice;
+
+    public
+      function GetPrice  : Currency; overload;
+      function GetPrice(aValue  : Currency) : iPriceOperations; overload;
+
+      function &End : iPrice;
+
+  end;
+
+implementation
+
+{ TPriceOperations }
+
+function TPriceOperations.&End: iPrice;
+begin
+  Result := FParent;
+
+end;
+
+function TPriceOperations.GetPrice: Currency;
+begin
+
+end;
+
+function TPriceOperations.GetPrice(aValue: Currency): iPriceOperations;
+begin
+
+end;
+
+end.

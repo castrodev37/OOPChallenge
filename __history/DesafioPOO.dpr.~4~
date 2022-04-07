@@ -1,0 +1,17 @@
+program DesafioPOO;
+
+uses
+  Vcl.Forms,
+  mainUnit in 'mainUnit.pas' {Form1},
+  Price.Interfaces in 'src\Price.Interfaces.pas',
+  PriceController.Classes in 'src\PriceController.Classes.pas',
+  Helpers.Enum in 'src\Helpers.Enum.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

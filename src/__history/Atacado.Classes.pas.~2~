@@ -1,0 +1,57 @@
+unit Atacado.Classes;
+
+interface
+
+uses
+  Price.Interfaces;
+
+type
+  TAtacado = class(TInterfacedObject, iPrice)
+    private
+      FPriceParams      : iPriceParams;
+      FPriceOperations  : iPriceOperations;
+
+    public
+      constructor Create;
+      destructor Destroy; override;
+      class function New  : iPrice;
+
+      function PriceParams      : iPriceParams;
+      function PriceOperations  : iPriceOperations;
+
+  end;
+
+implementation
+
+{ TAtacado }
+
+constructor TAtacado.Create;
+begin
+  PriceParams
+    .PriceName('Atacado')
+    .PriceVar(0.1);
+
+end;
+
+destructor TAtacado.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TAtacado.New: iPrice;
+begin
+
+end;
+
+function TAtacado.PriceOperations: iPriceOperations;
+begin
+
+end;
+
+function TAtacado.PriceParams: iPriceParams;
+begin
+
+end;
+
+end.

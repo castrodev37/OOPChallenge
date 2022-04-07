@@ -1,0 +1,35 @@
+unit Feriado.Classes;
+
+interface
+
+uses
+  Price.Interfaces;
+
+type
+  TFeriado = class(TInterfacedObject, iPrice)
+    private
+      FPriceParams      : iPriceParams;
+      FPriceOperations  : iPriceOperations;
+
+    public
+      function PriceParams      : iPriceParams;
+      function PriceOperations  : iPriceOperations;
+
+  end;
+
+implementation
+
+{ TFeriado }
+
+function TFeriado.PriceOperations: iPriceOperations;
+begin
+  if not Assigned(FPriceOperations) then
+    //FPriceOperations  :=
+end;
+
+function TFeriado.PriceParams: iPriceParams;
+begin
+
+end;
+
+end.

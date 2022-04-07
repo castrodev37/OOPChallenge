@@ -1,0 +1,30 @@
+unit Helpers.Enum;
+
+interface
+
+uses
+  Price.Interfaces;
+
+type
+  TPricesEnum = (eFeriado, eAtacado, eVarejo);
+
+  TPriceHelper = record helper for TPricesEnum
+    function This : iPrice;
+
+  end;
+
+implementation
+
+{ TPriceHelper }
+
+function TPriceHelper.This: iPrice;
+begin
+//  case TPricesEnum of
+//    //eFeriado: Result := ;
+//    eAtacado: ;
+//    eVarejo: ;
+//  end;
+
+end;
+
+end.

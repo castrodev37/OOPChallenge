@@ -1,0 +1,59 @@
+unit PriceOperations.Classes;
+
+interface
+
+uses
+  Price.Interfaces;
+
+type
+  TPriceOperations = class(TInterfacedObject, iPriceOperations)
+    private
+      FParent       : iPrice;
+      FPriceValue   : Currency;
+      FPriceParams  : iPriceParams;
+
+    public
+      function GetPrice  : Currency; overload;
+      function GetPrice(aValue  : Currency) : iPriceOperations; overload;
+      function GetPrice(aValue  : String)   : Currency; overload;
+      function PriceParams  : iPriceParams;
+
+      function &End : iPrice;
+
+  end;
+
+implementation
+
+uses
+  System.SysUtils;
+
+{ TPriceOperations }
+
+function TPriceOperations.&End: iPrice;
+begin
+  Result := FParent;
+
+end;
+
+function TPriceOperations.GetPrice: Currency;
+begin
+
+end;
+
+function TPriceOperations.GetPrice(aValue: Currency): iPriceOperations;
+begin
+  Result      := Self;
+  FPriceValue := (aValue * FPriceVar) + aValue;
+
+end;
+
+function TPriceOperations.GetPrice(aValue: String): Currency;
+begin
+  Result := 0;
+
+  if TryStrToCurr(aValue, Result) then
+    GetPrice(StrToCurr(aValue));
+
+end;
+
+end.

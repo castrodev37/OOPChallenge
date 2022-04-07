@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/04/05 21:47:52.000.690,=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/04/05 21:51:31.000.645,C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Admin\Documents\Embarcadero\Delphi Senior\Orientação a Objetos\Pratica\Desafio POO Pratica\mainUnit.dfm</Transaction>
+    <Transaction>2022/04/05 21:51:31.000.645,C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Admin\Documents\Embarcadero\Delphi Senior\Orientação a Objetos\Pratica\Desafio POO Pratica\mainUnit.pas</Transaction>
+    <Transaction>2022/04/05 21:51:38.000.705,C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Admin\Documents\Embarcadero\Delphi Senior\Orientação a Objetos\Pratica\Desafio POO Pratica\DesafioPOO.dproj</Transaction>
+    <Transaction>2022/04/05 21:51:48.000.319,=C:\Users\Admin\Documents\Embarcadero\Delphi Senior\Orientação a Objetos\Pratica\Desafio POO Pratica\Unit1.pas</Transaction>
+    <Transaction>2022/04/05 21:52:20.000.399,C:\Users\Admin\Documents\Embarcadero\Delphi Senior\Orientação a Objetos\Pratica\Desafio POO Pratica\Unit1.pas=C:\Users\Admin\Documents\Embarcadero\Delphi Senior\Orientação a Objetos\Pratica\Desafio POO Pratica\src\Price.Interfaces.pas</Transaction>
+    <Transaction>2022/04/05 22:11:57.000.859,=C:\Users\Admin\Documents\Embarcadero\Delphi Senior\Orientação a Objetos\Pratica\Desafio POO Pratica\Unit1.pas</Transaction>
+    <Transaction>2022/04/05 22:12:17.000.416,C:\Users\Admin\Documents\Embarcadero\Delphi Senior\Orientação a Objetos\Pratica\Desafio POO Pratica\Unit1.pas=C:\Users\Admin\Documents\Embarcadero\Delphi Senior\Orientação a Objetos\Pratica\Desafio POO Pratica\src\PriceController.Classes.pas</Transaction>
+    <Transaction>2022/04/05 22:28:42.000.040,=C:\Users\Admin\Documents\Embarcadero\Delphi Senior\Orientação a Objetos\Pratica\Desafio POO Pratica\Unit1.pas</Transaction>
+    <Transaction>2022/04/05 22:28:55.000.609,C:\Users\Admin\Documents\Embarcadero\Delphi Senior\Orientação a Objetos\Pratica\Desafio POO Pratica\Unit1.pas=C:\Users\Admin\Documents\Embarcadero\Delphi Senior\Orientação a Objetos\Pratica\Desafio POO Pratica\src\Helpers.Enum.pas</Transaction>
+    <Transaction>2022/04/05 22:37:06.000.776,=C:\Users\Admin\Documents\Embarcadero\Delphi Senior\Orientação a Objetos\Pratica\Desafio POO Pratica\Unit1.pas</Transaction>
+    <Transaction>2022/04/05 22:37:23.000.231,C:\Users\Admin\Documents\Embarcadero\Delphi Senior\Orientação a Objetos\Pratica\Desafio POO Pratica\Unit1.pas=C:\Users\Admin\Documents\Embarcadero\Delphi Senior\Orientação a Objetos\Pratica\Desafio POO Pratica\src\Feriado.Classes.pas</Transaction>
+    <Transaction>2022/04/05 22:41:45.000.186,=C:\Users\Admin\Documents\Embarcadero\Delphi Senior\Orientação a Objetos\Pratica\Desafio POO Pratica\Unit1.pas</Transaction>
+    <Transaction>2022/04/05 22:41:56.000.370,C:\Users\Admin\Documents\Embarcadero\Delphi Senior\Orientação a Objetos\Pratica\Desafio POO Pratica\Unit1.pas=C:\Users\Admin\Documents\Embarcadero\Delphi Senior\Orientação a Objetos\Pratica\Desafio POO Pratica\src\PriceOperations.Classes.pas</Transaction>
+    <Transaction>2022/04/05 22:42:06.000.964,=C:\Users\Admin\Documents\Embarcadero\Delphi Senior\Orientação a Objetos\Pratica\Desafio POO Pratica\Unit1.pas</Transaction>
+    <Transaction>2022/04/05 22:42:38.000.848,C:\Users\Admin\Documents\Embarcadero\Delphi Senior\Orientação a Objetos\Pratica\Desafio POO Pratica\Unit1.pas=C:\Users\Admin\Documents\Embarcadero\Delphi Senior\Orientação a Objetos\Pratica\Desafio POO Pratica\src\PriceParams.Classes.pas</Transaction>
+    <Transaction>2022/04/06 20:16:21.874,=C:\Users\Admin\Documents\Embarcadero\Delphi Senior\Orientação a Objetos\Pratica\Desafio POO Pratica\Unit1.pas</Transaction>
+    <Transaction>2022/04/06 20:16:32.435,C:\Users\Admin\Documents\Embarcadero\Delphi Senior\Orientação a Objetos\Pratica\Desafio POO Pratica\src\Atacado.Classes.pas=C:\Users\Admin\Documents\Embarcadero\Delphi Senior\Orientação a Objetos\Pratica\Desafio POO Pratica\Unit1.pas</Transaction>
+    <Transaction>2022/04/06 20:16:37.272,=C:\Users\Admin\Documents\Embarcadero\Delphi Senior\Orientação a Objetos\Pratica\Desafio POO Pratica\Unit1.pas</Transaction>
+    <Transaction>2022/04/06 20:17:03.142,C:\Users\Admin\Documents\Embarcadero\Delphi Senior\Orientação a Objetos\Pratica\Desafio POO Pratica\src\Varejo.Classes.pas=C:\Users\Admin\Documents\Embarcadero\Delphi Senior\Orientação a Objetos\Pratica\Desafio POO Pratica\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
